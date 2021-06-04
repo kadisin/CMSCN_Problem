@@ -53,7 +53,7 @@ public:
 	double dGetZ();
 	double dGetQuality(double* pdSolution);
 	
-// chujowo
+
 	// zakresy
 	double* xdmin();
 	double* xdmax();
@@ -93,7 +93,7 @@ private:
 	// Tablica dwuwymiarowa kosztow wyprodukowania i przewozu produktu do centrum dystrybucji 
 	// cf[amount_of_fabrics][amount_of_magazines]
 	double** cf;
-	// Tablica dwuwymiarowa kosztów przechowywania w magazynie i transport do sklepu
+	// Tablica dwuwymiarowa kosztÃ³w przechowywania w magazynie i transport do sklepu
 	// cm[amount_of_magazines][amount_of_shops]
 	double** cm;
 
@@ -104,7 +104,7 @@ private:
 	// Rzeczywista ilosc produktow wytwarzana w fabryce i transportowana do magazynu
 	// xf[amount_of_fabrics][amount_of_magazines]
 	double** xf;
-	// Rzeczywista ilosc produktów przechowywana i transportowana do sklepu
+	// Rzeczywista ilosc produktÃ³w przechowywana i transportowana do sklepu
 	// xm[amount_of_magazines][amount_of_shops]
 	double** xm;
 	
